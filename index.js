@@ -1,26 +1,13 @@
-// Lista de propriedades de CSS
-let listaPropriedades = [];
+import readlineSync from "readline-sync";
 
-// Prompt para receber as propriedades
-let propriedade = "";
+const propriedade = [];
+let inserir = "";
 
-
-
-// Laço que vai receber propriedades até que a pessoa digite "SAIR"
-while (propriedade.toLowerCase() !== "sair") {
-  propriedade = prompt("Digite uma propriedade de CSS ou digite 'SAIR' para sair: ");
-
-  // Adicionar propriedade na lista, se a pessoa não digitar "SAIR"
-  if (propriedade.toLowerCase() !== "sair") {
-    listaPropriedades.push(propriedade);
-  }
+while (inserir != "sair") {
+  propriedade.push(inserir);
+  inserir = readlineSync
+    .question("insira uma propriedade CSS:")
+    .toLocaleLowerCase();
 }
 
-// Ordenar a lista de propriedades
-listaPropriedades.sort();
-
-// Imprimir lista ordenada no terminal
-console.log("Lista de propriedades ordenadas: ");
-for (let i = 0; i < listaPropriedades.length; i++) {
-  console.log(listaPropriedades[i]);
-}
+console.log((propriedade.sort().join("\n")));

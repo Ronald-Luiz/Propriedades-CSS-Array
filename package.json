@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "trabalho-individual",
   "version": "1.0.0",
   "description": "",
@@ -9,6 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
