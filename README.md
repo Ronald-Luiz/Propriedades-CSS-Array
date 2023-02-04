@@ -1,4 +1,4 @@
-# Projeto individual
+# PROJETO INDIVIDUAL 
 
 <h3>💡Que tal citarmos propriedades em CSS e retornar em um array?💡</h3>
 
