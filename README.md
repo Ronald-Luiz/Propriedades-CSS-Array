@@ -1,6 +1,6 @@
 # PROJETO INDIVIDUAL 
 
-<h3>💡Que tal citarmos propriedades em CSS e retornar em um array?💡</h3>
+<h3>💡Que tal escrever propriedades em CSS e retornar em um array?💡</h3>
 
 <h1>Como executar o projeto❓</h1>
 <h2>1. Instale os módulos ou as dependências:</h2><br>
