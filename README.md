@@ -7,7 +7,7 @@
 <h3>🧩npm install readline-sync</h3>
 <h2>3. Execute o projeto:</h2>
 <h3>🚀npm start</h3>
-
+<hr>
 
 
 
