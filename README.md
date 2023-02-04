@@ -16,16 +16,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+<h3>Index.js</h3>
 
 ![image](https://user-images.githubusercontent.com/56053290/216742570-c190051e-8299-449a-9437-0ddf46d92b74.png)
