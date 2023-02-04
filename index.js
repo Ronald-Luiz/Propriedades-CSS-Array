@@ -1,13 +1,25 @@
-import readlineSync from "readline-sync";
+const readlineSync = require ('readline-sync');
 
-const propriedade = [];
-let inserir = "";
+const ListaCSS = [];
 
-while (inserir != "sair") {
-  propriedade.push(inserir);
-  inserir = readlineSync
-    .question("insira uma propriedade CSS:")
-    .toLocaleLowerCase();
+const func = () => {
+  let cadastro = true;
+  let input = "";
+
+  while (cadastro) {
+    input = readlineSync
+      .question("Digite codigo em CSS ou digite 'sair': ")
+      .toLowerCase()
+    if (input === "") {
+      console.log("Por favor, digite codigo CSS");
+    } else if (input !== 'sair') {
+      ListaCSS.push(input);
+    } else {
+      cadastro = false;
+    }
+  }
+  console.log(ListaCSS.sort());
+
 }
 
-console.log((propriedade.sort().join("\n")));
+func();
