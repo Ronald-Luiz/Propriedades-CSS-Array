@@ -17,6 +17,8 @@
 
 
 <h3>Index.js</h3>
+
 ![image](https://user-images.githubusercontent.com/56053290/216742570-c190051e-8299-449a-9437-0ddf46d92b74.png)
 <h3>Saída do terminal</h3>
+
 ![image](https://user-images.githubusercontent.com/56053290/216743383-6a59721f-178b-4398-9b3b-97af960f8ddb.png)
