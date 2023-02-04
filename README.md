@@ -1,13 +1,13 @@
 # Projeto individual
 
-**Que tal citarmos propriedades em CSS e retornar em um array?**
+<h1>**Que tal citarmos propriedades em CSS e retornar em um array?**</h1>
 
-**Como executar o projeto?**
+<h1>Como executar o projeto?</h1>
 
-faça a instação da biblioteca readline-sync:
-1 .npm install readline-sync
+<h2>faça a instação da biblioteca readline-sync:</h2><br>
+<h4>1 .npm install readline-sync</h4>
 
-Execute o projeto:
-2 .npm start
+<h2>Execute o projeto:</h2><br>
+<h4>2 .npm start</h4>
 
 
